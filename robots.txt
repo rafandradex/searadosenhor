@@ -1,0 +1,20 @@
+# Bloquear todas as áreas administrativas e sensíveis
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /config/
+Disallow: /scripts/
+
+# Bloquear URLs específicas
+Disallow: /login.html
+Disallow: /signup.html
+
+# Permitir acesso a todas as outras áreas
+User-agent: *
+Allow: /
+
+# Especifica a localização do sitemap
+Sitemap: https://searadosenhor.pt/sitemap.xml

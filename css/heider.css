@@ -1,0 +1,33 @@
+@import url('config.css');
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 3em;
+}
+
+header ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+
+header ul li {
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header ul li a:hover {
+    color: var(--corprincipal);
+}
+
+header img {
+    width: 5dvh;
+}

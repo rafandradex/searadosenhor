@@ -1,0 +1,26 @@
+@import url('config.css');
+
+section {
+    margin: 15px;
+}
+
+.bemvindo {
+    text-align: center;
+}
+
+.bemvindo p {
+    max-width: 50em;
+    margin: auto;
+}
+
+.horarios {
+    text-align: center;
+}
+
+.horarios ul {
+    list-style-type: none;
+}
+
+.loca {
+    text-align: center;
+}

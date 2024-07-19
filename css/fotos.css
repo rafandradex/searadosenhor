@@ -1,0 +1,26 @@
+@import url('config.css');
+
+.gallery {
+    margin: 10px;
+    column-count: 6;
+    column-gap: 10px;
+}
+
+.gallery img{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.03);
+}
+
+@media screen and (max-width: 700px) {
+    .gallery {
+        margin: 10px;
+        column-count: 2;
+        column-gap: 10px;
+    }
+}
