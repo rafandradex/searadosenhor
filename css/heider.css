@@ -1,33 +1,33 @@
 @import url('config.css');
 
-header nav {
+#header nav, header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1em 3em;
 }
 
-header ul {
+#header ul, header ul {
     display: flex;
-    gap: 15px;
+    gap: 1em;
     list-style-type: none;
 }
 
 
-header ul li {
+#header ul li, header ul li {
     font-weight: 700;
     font-size: 1.1em;
 }
 
-header ul li a{
+#header ul li a, header ul li a{
     text-decoration: none;
     color: black;
 }
 
-header ul li a:hover {
+#header ul li a:hover, header ul li a:hover {
     color: var(--corprincipal);
 }
 
-header img {
+#header img, header img {
     width: 5dvh;
 }

@@ -1,7 +1,7 @@
 @import url('config.css');
 
 section {
-    margin: 15px;
+    margin: 2em;
 }
 
 .bemvindo {
@@ -19,6 +19,17 @@ section {
 
 .horarios ul {
     list-style-type: none;
+}
+
+.horarios li.indisponivel {
+    color: #e74c3c;
+    text-decoration: line-through;
+}
+
+.horarios p {
+    font-size: 1em;
+    color: #7f8c8d;
+    margin-top: 20px;
 }
 
 .loca {

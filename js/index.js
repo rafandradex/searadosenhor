@@ -1,14 +1,5 @@
-// Config
-anuncio("O site ainda está em desenvolvimento")
-
-// 
-header()
 footer()
-
-function anuncio(textoanuncio) {
-    let anuncio = document.getElementById("anuncio");
-    anuncio.innerHTML = textoanuncio;
-}
+header()
 
 function header() {
     let cabecalho = document.querySelector("header");

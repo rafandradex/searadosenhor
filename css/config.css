@@ -8,6 +8,7 @@
     --fontprinciapal: "Manrope", sans-serif;
     --corprincipal: #FCBC1C;
     --corsecundaria: #F3C34D;
+    --cortercearia: #232426;
     --header: #FAFBFC;
 }
 
@@ -16,12 +17,4 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--fontprinciapal);
-}
-
-.anuncio {
-    margin: 0;
-    padding: 0.5em;
-    background-color: var(--corsecundaria);
-    text-align: center;
-    font-weight: 700;
 }

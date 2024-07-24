@@ -3,7 +3,7 @@
   <!-- Página inicial -->
   <url>
     <loc>https://searadosenhor.pt/</loc>
-    <lastmod>2024-07-19</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -11,26 +11,8 @@
   <!-- Página de Sobre Nós -->
   <url>
     <loc>https://searadosenhor.pt/fotos.html</loc>
-    <lastmod>2024-07-19</lastmod>
+    <lastmod>2024-07-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- Página de Contato -->
-  <!-- <url>
-    <loc>https://www.seusite.com/contato</loc>
-    <lastmod>2024-07-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url> -->
-
-  <!-- Página de Serviços -->
-  <!-- <url>
-    <loc>https://www.seusite.com/servicos</loc>
-    <lastmod>2024-07-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url> -->
-
-  <!-- Adicione mais URLs conforme necessário -->
 </urlset>
